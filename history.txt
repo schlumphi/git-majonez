@@ -1,0 +1,55 @@
+ 2114  mkdir git-majonez
+ 2115  cd git-majonez/
+ 2116  ls
+ 2117  git init
+ 2118  ls
+ 2119  touch main.cpp
+ 2120  nano main.cpp 
+ 2121  cat main.cpp 
+ 2122  nano main.cpp 
+ 2123  cat main.cpp 
+ 2124  git add main.cpp
+ 2125  git commit -m "Initial commit"
+ 2126  nano main.cpp 
+ 2127  git add -A
+ 2128  it commit -m "Farewell changed"
+ 2129  git commit -m "Farewell changed"
+ 2130  git status
+ 2131  git log
+ 2132  git remote add origin git@github.com:schlumphi/git-majonez.git
+ 2133  git push -u origin master
+ 2134  git branch cs
+ 2135  git checkout cs
+ 2136  git log
+ 2137  cat main.cpp 
+ 2138  git log
+ 2139  git reset HEAD^
+ 2140  cat main.cpp 
+ 2141  git log
+ 2142  git checkout main
+ 2143  git status
+ 2144  git branch
+ 2145  git checkout master
+ 2146  git help reset
+ 2147  git status
+ 2148  git restore main.cpp 
+ 2149  git status
+ 2150  git log
+ 2151  cat main.cpp 
+ 2152  git reset 1f366b2fd1de721f71a3a5ccc4af4ad7d2a5dc12 --hard
+ 2153  git log
+ 2154  ls
+ 2155  cat main.cpp 
+ 2156  git status
+ 2157  nano main.cpp 
+ 2158  git add -A
+ 2159  git commit -m "Greetings"
+ 2160  git push origin cs
+ 2161  git checkout master
+ 2162  git log
+ 2163  git status
+ 2164  git merge cs
+ 2165  git status
+ 2166  nano main.cpp 
+ 2167  history
+ 2168  history | tail -n55 > history.txt
