@@ -1,7 +1,6 @@
 #include <iostream>
 
 auto main() -> int {
-	std::cout << "Hello World";
+	std::cout << "Hello Coders School";
 	return 0;
 }
-
